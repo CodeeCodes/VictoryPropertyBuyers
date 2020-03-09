@@ -64,6 +64,10 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__list-item {
@@ -77,17 +81,15 @@ li {
           transform: scale(1.1);
 }
 
-.header__list-logo {
-  background-image: url("images/svg/victory-property-buyers-logo.svg");
+.header__logo {
+  margin-left: 1.5%;
+  background-image: url("images/logo.jpeg");
   background-repeat: no-repeat;
+  background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 60%;
-  height: 40px;
-}
-
-.header__logo {
-  margin-left: 3%;
+  width: 320px;
+  height: 70px;
 }
 
 .hero {
@@ -122,7 +124,7 @@ li {
 }
 
 .hero__bottom {
-  background-color: #ffa500;
+  background-color: #ff8400;
   height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,5 +141,23 @@ li {
 .hero__bottom-text {
   color: #fff;
   font-size: 60px;
+}
+
+.how {
+  background-color: #000060;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.how__text {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

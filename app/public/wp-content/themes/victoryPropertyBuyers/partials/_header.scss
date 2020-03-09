@@ -4,6 +4,8 @@
   &__list {
     display: flex;
     flex-direction: row;
+    margin: 0;
+    align-items: center;
     &-item {
       width: 10%;
       transition: ease 0.7s;
@@ -12,16 +14,14 @@
         transform: scale(1.1);
       }
     }
-    &-logo {
-      background-image: url("images/svg/victory-property-buyers-logo.svg");
-      background-repeat: no-repeat;
-      //   background-position: center;
-      object-fit: cover;
-      width: 60%;
-      height: 40px;
-    }
   }
   &__logo {
-    margin-left: 3%;
+    margin-left: 1.5%;
+    background-image: url("images/logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    width: 320px;
+    height: 70px;
   }
 }
