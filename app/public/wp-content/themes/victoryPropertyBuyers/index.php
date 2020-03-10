@@ -76,6 +76,12 @@ get_header();
     </div>
     </div>
 </div>
+<div class="faq">
+<div class=faq__image>
+    
+</div>
+
+</div>
 <?php
 get_footer();
 ?>

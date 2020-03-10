@@ -1,0 +1,13 @@
+.faq {
+  width: 100%;
+  height: 400px;
+  &__image {
+    background-image: url("images/pic13.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+  }
+}

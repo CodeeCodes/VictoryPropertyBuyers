@@ -10,7 +10,11 @@ Version: 1.0
  * 3. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+/*
+ Imports
+ */
 
+@import "./partials/colours";
 /* Document
    ========================================================================== */
 
@@ -65,3 +69,4 @@ li {
 @import "./partials/how";
 @import "./partials/stressFree";
 @import "./partials/reason";
+@import "./partials/faq";
