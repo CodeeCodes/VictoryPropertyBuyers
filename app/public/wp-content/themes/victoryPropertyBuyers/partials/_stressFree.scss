@@ -1,0 +1,19 @@
+.stressFree {
+  background-color: #000060;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-direction: column;
+  &__text {
+    color: #fff;
+  }
+  &__div {
+    margin: 0 25%;
+    &-text {
+      color: #fff;
+      text-align: center;
+    }
+  }
+}

@@ -47,9 +47,13 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+p {
+  font-size: 20px;
+}
+
 a {
   text-decoration: none;
-  color: #000;
+  color: #000060;
 }
 
 li {
@@ -125,7 +129,7 @@ li {
 
 .hero__bottom {
   background-color: #ff8400;
-  height: 400px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,11 +144,49 @@ li {
 
 .hero__bottom-text {
   color: #fff;
-  font-size: 60px;
+  font-size: 45px;
+  text-align: center;
 }
 
 .how {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+.how__text {
+  color: #000060;
+}
+
+.how__div {
+  margin: 0 25%;
+}
+
+.how__div-text {
+  color: #000060;
+}
+
+.how__div-button {
+  color: #000060;
+  border: 1px solid #000060;
+  background-color: #ff8400;
+  border-radius: 4px;
+}
+
+.stressFree {
   background-color: #000060;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,9 +197,83 @@ li {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.how__text {
+.stressFree__text {
   color: #fff;
+}
+
+.stressFree__div {
+  margin: 0 25%;
+}
+
+.stressFree__div-text {
+  color: #fff;
+  text-align: center;
+}
+
+.reason {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.reason__heading {
+  color: #000060;
+}
+
+.reason__div {
+  margin: 0 25%;
+}
+
+.reason__div--left {
+  width: 50%;
+  margin-right: 10%;
+}
+
+.reason__div--right {
+  width: 50%;
+  margin-left: 0;
+}
+
+.reason__div-text {
+  color: #000060;
+  text-align: center;
+  width: 100%;
+}
+
+.reason__list {
+  padding: 0;
+}
+
+.reason__list-item {
+  color: #000060;
+  list-style: unset;
+}
+
+.reason__list-item:hover {
+  color: #ff8400;
+}
+
+.reason__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

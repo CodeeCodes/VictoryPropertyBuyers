@@ -49,10 +49,12 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-
+p {
+  font-size: 20px;
+}
 a {
   text-decoration: none;
-  color: #000;
+  color: #000060;
 }
 li {
   list-style: none;
@@ -61,3 +63,5 @@ li {
 @import "./partials/header";
 @import "./partials/hero";
 @import "./partials/how";
+@import "./partials/stressFree";
+@import "./partials/reason";

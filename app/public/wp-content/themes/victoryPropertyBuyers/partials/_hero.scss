@@ -20,7 +20,7 @@
   }
   &__bottom {
     background-color: #ff8400;
-    height: 400px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,8 @@
 
     &-text {
       color: #fff;
-      font-size: 60px;
+      font-size: 45px;
+      text-align: center;
     }
   }
 }
