@@ -1,26 +1,26 @@
 .reason {
+  color: $grey;
   height: 400px;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin: 10px auto;
   flex-direction: column;
   &__heading {
-    color: #000060;
+    color: $blue;
   }
   &__div {
     margin: 0 25%;
     &--left {
       width: 50%;
-      margin-right: 10%;
+      padding-left: 4%;
     }
     &--right {
       width: 50%;
-      margin-left: 0;
     }
     &-text {
-      margin: 0 25%;
-      color: #000060;
+      color: $blue;
       text-align: center;
     }
   }
@@ -28,11 +28,11 @@
     padding: 0;
 
     &-item {
-      color: #000060;
+      color: $blue;
       list-style: unset;
 
       &:hover {
-        color: #ff8400;
+        color: $orange;
       }
     }
   }

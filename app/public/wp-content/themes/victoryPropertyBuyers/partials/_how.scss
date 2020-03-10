@@ -1,24 +1,24 @@
 .how {
-  // background-color: #000060;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 20px;
+  margin: 20px auto;
 
   &__text {
-    color: #000060;
+    color: $blue;
   }
   &__div {
-    margin: 0 25%;
+    margin: 0;
     &-text {
-      color: #000060;
+      color: $blue;
     }
     &-button {
       height: 30px;
       color: #000060;
-      border: 1px solid #000060;
-      background-color: #ff8400;
+      border: 1px solid $blue;
+      background-color: $orange;
       border-radius: 4px;
     }
   }
