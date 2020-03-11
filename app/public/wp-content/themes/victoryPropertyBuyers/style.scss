@@ -64,7 +64,13 @@ a {
 li {
   list-style: none;
 }
-
+.cashButton {
+  height: 30px;
+  color: #000060;
+  border: 1px solid $blue;
+  background-color: $orange;
+  border-radius: 4px;
+}
 @import "./partials/header";
 @import "./partials/hero";
 @import "./partials/how";

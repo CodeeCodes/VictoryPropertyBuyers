@@ -64,6 +64,14 @@ li {
   list-style: none;
 }
 
+.cashButton {
+  height: 30px;
+  color: #000060;
+  border: 1px solid #000060;
+  background-color: #ff8400;
+  border-radius: 4px;
+}
+
 .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,7 +106,7 @@ li {
   -o-object-fit: cover;
      object-fit: cover;
   width: 45%;
-  height: 70px;
+  height: 60px;
 }
 
 .hero {
@@ -113,7 +121,7 @@ li {
 }
 
 .hero__overlay {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.13);
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -154,7 +162,7 @@ li {
 }
 
 .how {
-  width: 40%;
+  width: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,14 +191,6 @@ li {
   color: #000060;
 }
 
-.how__div-button {
-  height: 30px;
-  color: #000060;
-  border: 1px solid #000060;
-  background-color: #ff8400;
-  border-radius: 4px;
-}
-
 .stressFree {
   background-color: #000060;
   height: 400px;
@@ -215,7 +215,7 @@ li {
 }
 
 .stressFree__div {
-  width: 40%;
+  width: 45%;
   margin: 0 auto;
 }
 
@@ -227,7 +227,7 @@ li {
 .reason {
   color: #f9f9f9;
   height: 400px;
-  width: 40%;
+  width: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,7 +286,7 @@ li {
 }
 
 .faq {
-  width: 40%;
+  width: 45%;
   height: auto;
   margin: 0 auto;
 }
@@ -306,7 +306,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  width: 10  0%;
   height: 400px;
   margin: 0 auto;
 }
