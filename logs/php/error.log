@@ -1,0 +1,37 @@
+[11-Mar-2020 18:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php:12
+Stack trace:
+#0 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php(722): require_once()
+#1 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php(671): load_template('/Users/codeepal...', true)
+#2 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/index.php(2): get_header()
+#4 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template-loader.php(98): include('/Users/codeepal...')
+#5 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-blog-header.php(19): require_once('/Users/codeepal...')
+#6 /Users/codeepalmer/Local Sites/victorypropertybuyers in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php on line 12
+[11-Mar-2020 18:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php:12
+Stack trace:
+#0 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php(722): require_once()
+#1 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php(671): load_template('/Users/codeepal...', true)
+#2 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/index.php(2): get_header()
+#4 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template-loader.php(98): include('/Users/codeepal...')
+#5 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-blog-header.php(19): require_once('/Users/codeepal...')
+#6 /Users/codeepalmer/Local Sites/victorypropertybuyers in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php on line 12
+[11-Mar-2020 18:02:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php:12
+Stack trace:
+#0 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php(722): require_once()
+#1 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php(671): load_template('/Users/codeepal...', true)
+#2 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/index.php(2): get_header()
+#4 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template-loader.php(98): include('/Users/codeepal...')
+#5 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-blog-header.php(19): require_once('/Users/codeepal...')
+#6 /Users/codeepalmer/Local Sites/victorypropertybuyers in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php on line 12
+[11-Mar-2020 18:02:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php:12
+Stack trace:
+#0 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php(722): require_once()
+#1 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php(671): load_template('/Users/codeepal...', true)
+#2 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/index.php(2): get_header()
+#4 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template-loader.php(98): include('/Users/codeepal...')
+#5 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-blog-header.php(19): require_once('/Users/codeepal...')
+#6 /Users/codeepalmer/Local Sites/victorypropertybuyers in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php on line 12
+[11-Mar-2020 18:26:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/index.php on line 40

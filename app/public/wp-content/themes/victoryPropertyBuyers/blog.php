@@ -14,17 +14,15 @@ get_header()
 <div class="blog__post-div">
     <?php
     //getting post from WP
-  
-        while (have_posts()) {
-            the_post(); ?>
+    while (have_posts()) {
+        the_post(); ?>
 
-            <h1 class="blog__post"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-            <p class="blog__post-text"> <?php
-                                        the_content();
-                                        ?></p>
+        <h1 class="blog__post"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+        <p class="blog__post-text"> <?php
+                                    the_content();
+                                    ?></p>
 
-    <?php  }
-     ?>
+    <?php  } ?>
 </div>
 
 <?php

@@ -16,13 +16,8 @@
       }
     }
   }
-  &__logo {
-    margin-left: 1.5%;
-    background-image: url("images/logo.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    width: 45%;
-    height: 60px;
+  &__image {
+    height: 75px;
+    width: 35%;
   }
 }
