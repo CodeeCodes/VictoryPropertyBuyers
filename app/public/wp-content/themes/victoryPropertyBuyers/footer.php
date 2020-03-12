@@ -1,21 +1,48 @@
 <footer class="footer">
-    <div class="site-footer__inner container container--narrow">
+  <nav class="footer__nav">
+    <div class="footer__nav-div--left">
+      <ul class="footer__nav-list">
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">Facebook</h3>
+        </li>
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">Instagram</h3>
+        </li>
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">Twitter</h3>
+        </li>
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">LinkedIn</h3>
+        </li>
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">Email</h3>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__nav-div--right">
+      <ul class="footer__nav-list">
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">Facebook</h3>
+        </li>
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">Instagram</h3>
+        </li>
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">Twitter</h3>
+        </li>
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">LinkedIn</h3>
+        </li>
+        <li class="footer__nav-list--item">
+          <h3 class="footer__nav-list--item-heading">Email</h3>
+        </li>
+      </ul>
 
 
-        <div class="site-footer__col-four">
-          <h3 class="headline headline--small">Connect With Us</h3>
-          <nav>
-            <ul class="min-list social-icons-list group">
-              <li><a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-  </footer>
-<?php wp_footer(); ?>
+
+    </div>
+  </nav>
+</footer>
 </body>
+
 </html>

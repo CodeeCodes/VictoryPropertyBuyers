@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: $orange;
+  &__nav {
+    display: flex;
+    &-div {
+      &--left {
+        width: 50%;
+        &--right {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

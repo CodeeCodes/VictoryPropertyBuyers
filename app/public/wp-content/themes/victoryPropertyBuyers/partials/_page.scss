@@ -1,6 +1,6 @@
-.blog {
+.page {
   &__hero {
-    background-image: url("images/pic9.jpeg");
+    background-image: url("images/pic11.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -19,22 +19,6 @@
         color: #fff;
         font-size: 100px;
       }
-    }
-  }
-  &__post {
-    width: 100%;
-    width: 45%;
-    margin: 0 auto;
-    &-div {
-      width: 100%;
-      width: 45%;
-      margin: 0 auto;
-      &--small {
-        background-color: $grey;
-        border-radius: 5px;
-      }
-    }
-    &-text {
     }
   }
 }

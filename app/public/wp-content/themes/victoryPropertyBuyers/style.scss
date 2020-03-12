@@ -24,6 +24,7 @@ html {
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
+  margin: 0 !important;
 }
 
 /* Sections
@@ -34,7 +35,7 @@ html {
  */
 
 body {
-  margin: 0;
+  margin: 0 !important;
 }
 
 /**
@@ -78,3 +79,6 @@ li {
 @import "./partials/reason";
 @import "./partials/faq";
 @import "./partials/blog";
+@import "./partials/page";
+@import "./partials/about";
+@import "./partials/footer";
