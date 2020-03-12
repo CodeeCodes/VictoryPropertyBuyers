@@ -1,9 +1,8 @@
 .how {
-  width: 45%;
+  width: 70%;
   display: flex;
   justify-content: center;
   // align-items: ;
-  flex-direction: column;
   margin: 20px auto;
 
   &__text {
@@ -13,6 +12,7 @@
     margin: 0;
     &-text {
       color: $blue;
+      width: 33%;
     }
   }
 }

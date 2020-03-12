@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;gFAEgF;AAEhF,AAAA,CAAC,AAAA,qBAAqB,CAAC;EACrB,UAAU,EAAE,2CAA2C,CAAC,SAAS,CAAC,MAAM,CAAC,MAAM,CAAC,WAAW;EAC3F,eAAe,EAAE,OAAO;CACzB",
+    "sources": [
+        "admin-shortcode-ui.scss"
+    ],
+    "names": [],
+    "file": "admin-shortcode-ui.css"
+}
