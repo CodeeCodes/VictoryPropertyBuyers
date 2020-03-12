@@ -1,18 +1,27 @@
 .how {
   width: 70%;
-  display: flex;
-  justify-content: center;
-  // align-items: ;
-  margin: 20px auto;
-
+  padding: 30px 15%;
+  text-align: center;
+  background-color: $grey;
+  border-radius: 5px;
+  margin-top: 40px;
   &__text {
     color: $blue;
   }
   &__div {
     margin: 0;
+    width: 33.3%;
     &-text {
       color: $blue;
-      width: 33%;
+      padding: 10px;
+      text-align: left;
     }
+    &-big {
+      display: flex;
+    }
+  }
+  &__svg {
+    width: 30%;
+    height: 40px;
   }
 }

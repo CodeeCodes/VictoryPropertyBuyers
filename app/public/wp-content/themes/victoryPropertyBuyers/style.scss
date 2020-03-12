@@ -65,12 +65,36 @@ a {
 li {
   list-style: none;
 }
+.colouredDiv {
+  height: 100%;
+  width: 3px;
+  background-color: $grey;
+  &--white {
+    height: 450px;
+    width: 3px;
+    background-color: $white;
+  }
+}
 .cashButton {
-  height: 30px;
+  height: 60px;
+  width: 250px;
   color: #000060;
   border: 1px solid $blue;
   background-color: $orange;
-  border-radius: 4px;
+  border-radius: 7px;
+  margin: 0;
+  transition: ease 0.5s;
+  h1 {
+    margin: 0;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+  &-div {
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+  }
 }
 @import "./partials/header";
 @import "./partials/hero";

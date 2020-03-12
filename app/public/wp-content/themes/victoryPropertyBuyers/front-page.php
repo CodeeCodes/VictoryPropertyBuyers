@@ -14,34 +14,48 @@ get_header();
     </h1>
 </div>
 <div class="how">
+    <h1 class="how__text">
+        <strong>How It Works</strong>
+    </h1>
     <div class="how__div-big">
-        <h1 class="how__text">
-            <strong>How It Works</strong>
-        </h1>
         <div class="how__div">
+            <img class="how__svg" src="/wp-content/themes/victoryPropertyBuyers/images/svg/touch.svg" alt="touch">
+            <h2 class="how__div-heading"> Step 1: </h2>
             <p class="how__div-text">
-                Step 1: <button class="cashButton">CASH OFFER</button> Click the button to submit your contact details and the property address of the home you wish to sell.
+                Click the button to submit your contact details and the property address of the home you wish to sell.
                 We value your privacy and will keep communication completely professional and not spam you. Or if you’d like to speak with us directly
                 about your situation, call us at 619-900-1080.
             </p>
         </div>
+        <div class="colouredDiv--white"></div>
         <div class="how__div">
+            <img class="how__svg" src="/wp-content/themes/victoryPropertyBuyers/images/svg/book.svg" alt="touch">
+            <h2 class="how__div-heading"> Step 2: </h2>
             <p class="how__div-text">
-                Step 2: We review the details and see the property
+                We review the details and see the property
             </p>
         </div>
+        <div class="colouredDiv--white"></div>
         <div class="how__div">
+            <img class="how__svg" src="/wp-content/themes/victoryPropertyBuyers/images/svg/money.svg" alt="touch">
+            <h2 class="how__div-heading">Step 3:</h2>
             <p class="how__div-text">
-                Step 3: We make you a no obligation cash offer!
+                We make you a no obligation cash offer!
             </p>
         </div>
+
     </div>
+    <button class="cashButton popmake-40 popmake-cash">
+        <h1>CASH OFFER</h1>
+    </button>
 </div>
 <div class="stressFree">
     <div class="stressFree__image-div">
         <img class="stressFree__image" src="/wp-content/themes/victoryPropertyBuyers/images/pic5.jpeg" alt="stressFree" />
     </div>
+    <div class="colouredDiv"></div>
     <div class="stressFree__div">
+
         <h1 class="stressFree__text">
             <strong>We Have You Covered</strong>
         </h1>
@@ -61,31 +75,38 @@ get_header();
     <h1 class="reason__heading">Whatever the Reason, Whatever the Current State</h1>
     <p class="reason__div-text">
         We are interested in buying your house. Here are some of the reasons people want to sell their home to us.</p>
-    <div class="reason__flex">
-        <div class="reason__div--left">
-            <ul class="reason__list">
-                <li class="reason__list-item"> Liquidating assets</li>
-                <li class="reason__list-item"> Job Loss or Change</li>
-                <li class="reason__list-item">Extensive Repairs</li>
-                <li class="reason__list-item">Hoarding</li>
-                <li class="reason__list-item">Liens</li>
-                <li class="reason__list-item">Problem Tenants</li>
-                <li class="reason__list-item">Facing possible foreclosure</li>
-                <li class="reason__list-item">Death of a loved one</li>
+    <div class="reason__div-flex">
+        <div class="reason__flex">
+            <div class="reason__div--left">
+                <ul class="reason__list">
+                    <li class="reason__list-item"> Liquidating assets</li>
+                    <li class="reason__list-item"> Job Loss or Change</li>
+                    <li class="reason__list-item">Extensive Repairs</li>
+                    <li class="reason__list-item">Hoarding</li>
+                    <li class="reason__list-item">Liens</li>
+                    <li class="reason__list-item">Problem Tenants</li>
+                    <li class="reason__list-item">Facing possible foreclosure</li>
+                    <li class="reason__list-item">Death of a loved one</li>
 
+            </div>
+            <div class="reason__div--right">
+                <ul class="reason__list">
+                    <li class="reason__list-item">Trouble Selling or not wanting to deal with structural or repair issues</li>
+                    <li class="reason__list-item">Behind on Payments or Taxes</li>
+                    <li class="reason__list-item">Ugly House</li>
+                    <li class="reason__list-item">Title Issues</li>
+                    <li class="reason__list-item">Need to sell an inherited property quickly</li>
+                    <li class="reason__list-item">Bankruptcy</li>
+                </ul>
+            </div>
         </div>
-        <div class="reason__div--right">
-            <ul class="reason__list">
-                <li class="reason__list-item">Trouble Selling or not wanting to deal with structural or repair issues</li>
-                <li class="reason__list-item">Behind on Payments or Taxes</li>
-                <li class="reason__list-item">Ugly House</li>
-                <li class="reason__list-item">Title Issues</li>
-                <li class="reason__list-item">Need to sell an inherited property quickly</li>
-                <li class="reason__list-item">Bankruptcy</li>
-            </ul>
+        <div class="colouredDiv--white"></div>
+        <div class="reason__image-div">
+            <img class="reason__div-image" src="/wp-content/themes/victoryPropertyBuyers/images/pic7.jpeg" alt="stressFree" />
         </div>
     </div>
 </div>
+
 
 <div class="faq">
     <div class=faq__image>
@@ -125,6 +146,7 @@ get_header();
                 team that can help you find a solution for selling your house, no matter what your situation or
                 time line, while keeping the process simple and easy for you. </p>
         </div>
+
         <div class="faq__info">
             <h3 class="faq__info-heading">Who typically is looking to sell their house to a trusted home buyer like Victory Property Buyers?</h3>
             <p class="faq__info-text">
@@ -158,6 +180,7 @@ get_header();
                     </ul>
                 </div>
             </div>
+
         </div>
         <div class="faq__info">
             <h3 class="faq__info-heading">So Who We Are?</h3>
@@ -243,7 +266,9 @@ get_header();
                 with less hassle, and help take care of the costs of selling your home.
             </p>
         </div>
-
+        <div class="faq__info--unset">
+            <img class="faq__info-pic" src="/wp-content/themes/victoryPropertyBuyers/images/pic3.jpeg" alt="faq">
+        </div>
         <div class="faq__info">
             <h3 class="faq__info-heading">What factors do you consider when coming up with your real property value cash offer?</h3>
             <p class="faq__info-text">
@@ -282,12 +307,19 @@ get_header();
                 we can make you a cash offer that works for us and can work for you too.
             </p>
             <p class="faq__info-text">
-                Get in touch with us today by filling out a <button class="cashButton popmake-32 popmake-cash-offer">CASH OFFER</button> or by calling us at 1-690-900-1080!
+                Get in touch with us today by filling out a Cash Offer or by calling us at 1-690-900-1080!
             </p>
             <p class="faq__info-text">
                 We look forward to working with you!
             </p>
+
         </div>
+
+    </div>
+    <div class="cashButton-div">
+        <button class="cashButton popmake-cash-offer">
+            <h1>CASH OFFER</h1>
+        </button>
     </div>
 </div>
 </div>
