@@ -282,7 +282,7 @@ get_header();
                 we can make you a cash offer that works for us and can work for you too.
             </p>
             <p class="faq__info-text">
-                Get in touch with us today by filling out a <button class="cashButton">CASH OFFER</button> or by calling us at 1-690-900-1080!
+                Get in touch with us today by filling out a <button class="cashButton popmake-32 popmake-cash-offer">CASH OFFER</button> or by calling us at 1-690-900-1080!
             </p>
             <p class="faq__info-text">
                 We look forward to working with you!
