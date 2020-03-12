@@ -4,6 +4,10 @@
   background-color: $orange;
   &__nav {
     display: flex;
+    height: 100%;
+    width: 45%;
+    margin: 0 auto;
+    justify-content: space-between;
     &-div {
       &--left {
         width: 50%;

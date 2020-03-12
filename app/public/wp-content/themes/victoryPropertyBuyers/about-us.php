@@ -16,6 +16,7 @@ get_header()
     </div>
 </div>
 <div class="about__text-div">
+    <h1 class="about__heading">Our Story</h1>
     <p class="about__text"> We are a husband and wife team who pride ourselves with our professionalism
         and dedication to help people. We have enjoyed working together the last five years and have
         continued to develop our career as a professional team. We first met and began working together in
@@ -24,13 +25,17 @@ get_header()
         getting involved in Real Estate and continuing our desire to help people.
 
     </p>
-    <p class="about__text">We have always been interested in increasing our Real Estate education, and are
+        <div class="about__div">
+       <div class="about__image-div">
+        <img class="about__image" src="/wp-content/themes/victoryPropertyBuyers/images/pic8.jpeg" alt="About" />
+    </div>
+    <p class="about__text--flex">We have always been interested in increasing our Real Estate education, and are
         proud to be chosen members of the Mastery Program in Fortune Builders, an education and business
         development company that coach and teach you about real estate solutions. With access to their proven
         systems and their coaching and mentorship programs, we have gained a proper education to help give you
         the best possible solutions for selling your house.
-
     </p>
+        </div>
     <p class="about__text"> The strongest part of our business isn’t just our structured, proven system, but
         also our enjoyment in what we do and our desire to help as many people as we can who find themselves
         in difficult housing situations.
