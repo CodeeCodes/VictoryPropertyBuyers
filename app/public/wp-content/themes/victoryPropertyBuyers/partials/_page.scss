@@ -22,3 +22,29 @@
     }
   }
 }
+@include medium {
+  .page {
+    &__hero {
+      background-image: url("images/pic11.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      height: 700px;
+      width: 100%;
+      z-index: -2;
+
+      &-overlay {
+        background-color: rgba(0, 0, 0, 0.13);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &--text {
+          color: #fff;
+          font-size: 100px;
+        }
+      }
+    }
+  }
+}

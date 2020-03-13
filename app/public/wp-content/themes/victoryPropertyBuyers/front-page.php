@@ -4,7 +4,7 @@ get_header();
 <div class="hero">
     <div class="hero__overlay">
         <h1 class="hero__overlay-text">
-            <strong>We Buy Houses California</strong>
+            We Buy Houses California
         </h1>
     </div>
 </div>
@@ -45,7 +45,7 @@ get_header();
         </div>
 
     </div>
-    <button class="cashButton popmake-40 popmake-cash">
+    <button class="cashButton popmake-45 popmake-cash-offer-2">
         <h1>CASH OFFER</h1>
     </button>
 </div>
@@ -79,24 +79,24 @@ get_header();
         <div class="reason__flex">
             <div class="reason__div--left">
                 <ul class="reason__list">
-                    <li class="reason__list-item"> Liquidating assets</li>
-                    <li class="reason__list-item"> Job Loss or Change</li>
-                    <li class="reason__list-item">Extensive Repairs</li>
-                    <li class="reason__list-item">Hoarding</li>
-                    <li class="reason__list-item">Liens</li>
-                    <li class="reason__list-item">Problem Tenants</li>
+                    <li class="reason__list-item">Relocating or job transfer</li>
+                    <li class="reason__list-item"> Inherited Property</li>
+                    <li class="reason__list-item">Facing foreclosure </li>
+                    <li class="reason__list-item">Behind on mortgage payments</li>
+                    <li class="reason__list-item">Trouble selling</li>
+                    <li class="reason__list-item">Death or unexpected family emergency</li>
                     <li class="reason__list-item">Facing possible foreclosure</li>
-                    <li class="reason__list-item">Death of a loved one</li>
 
             </div>
             <div class="reason__div--right">
                 <ul class="reason__list">
-                    <li class="reason__list-item">Trouble Selling or not wanting to deal with structural or repair issues</li>
-                    <li class="reason__list-item">Behind on Payments or Taxes</li>
-                    <li class="reason__list-item">Ugly House</li>
-                    <li class="reason__list-item">Title Issues</li>
-                    <li class="reason__list-item">Need to sell an inherited property quickly</li>
+                    <li class="reason__list-item">Structural Issues
+                    <li class="reason__list-item">Going through a divorce</li>
+                    <li class="reason__list-item">Extensive Repairs</li>
+                    <li class="reason__list-item">Owe Taxes</li>
                     <li class="reason__list-item">Bankruptcy</li>
+                    <li class="reason__list-item">Adding to your family or wanting to upsize</li>
+                    <li class="reason__list-item">Retiring or wanting to downsize </li>
                 </ul>
             </div>
         </div>

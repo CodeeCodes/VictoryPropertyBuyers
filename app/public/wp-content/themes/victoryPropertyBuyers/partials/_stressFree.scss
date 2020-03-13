@@ -1,6 +1,5 @@
 .stressFree {
   background-color: $white;
-  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +29,22 @@
       height: 400px;
       width: 45%;
       padding: 15px;
+    }
+  }
+}
+@include medium {
+  .stressFree {
+    &__text {
+    }
+    &__div {
+      &--small {
+      }
+      &-text {
+      }
+    }
+    &__image {
+      &-div {
+      }
     }
   }
 }

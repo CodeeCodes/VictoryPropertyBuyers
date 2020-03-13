@@ -15,7 +15,8 @@
     align-items: center;
     &-text {
       color: #fff;
-      font-size: 100px;
+      font-size: 140px;
+      text-align: center;
     }
   }
   &__bottom {
@@ -30,6 +31,21 @@
       color: #fff;
       font-size: 45px;
       text-align: center;
+    }
+  }
+}
+
+@include medium {
+  .hero {
+    &__overlay {
+      &-text {
+        font-size: 200px;
+        padding-left: 0;
+      }
+    }
+    &__bottom {
+      &-text {
+      }
     }
   }
 }

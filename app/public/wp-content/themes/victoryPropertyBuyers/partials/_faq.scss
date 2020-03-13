@@ -21,7 +21,7 @@
   }
   &__info {
     margin: 30px 0;
-    width: 25%;
+    width: 90%;
     border-radius: 5px;
     padding: 30px;
     background-color: $grey;
@@ -33,7 +33,7 @@
     }
     &--unset {
       margin: 30px 0;
-      width: 32%;
+      width: 97%;
 
       padding: 0;
       background-color: $grey;
@@ -60,6 +60,74 @@
         flex-wrap: wrap;
         justify-content: space-between;
         margin: 0 5%;
+      }
+    }
+  }
+}
+@include medium {
+  .faq {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+    &__image {
+      background-image: url("images/pic10.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 700px;
+      margin: 0 auto;
+      &-overlay {
+        font-size: 60px;
+        color: $white;
+      }
+    }
+    &__info {
+      margin: 30px 0;
+      width: 25%;
+      border-radius: 5px;
+      padding: 30px;
+      background-color: $grey;
+      &-pic {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      &--unset {
+        margin: 30px 0;
+        width: 32%;
+
+        padding: 0;
+        background-color: $grey;
+      }
+      &-list {
+        &--item {
+          list-style: unset;
+          font-size: 11px;
+        }
+      }
+      &-text {
+        font-size: 11px;
+      }
+    }
+    &__div {
+      display: flex;
+      &--right {
+      }
+      &--left {
+      }
+      &-big {
+        &--flex {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin: 0 5%;
+        }
       }
     }
   }

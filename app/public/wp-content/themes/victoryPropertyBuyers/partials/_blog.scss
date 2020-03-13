@@ -27,7 +27,7 @@
     margin: 0 auto;
     &-div {
       width: 100%;
-      width: 45%;
+      width: 70%;
       margin: 0 auto;
       &--small {
         background-color: $grey;
@@ -35,6 +35,48 @@
       }
     }
     &-text {
+    }
+  }
+}
+@include medium {
+  .blog {
+    &__hero {
+      background-image: url("images/pic9.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      height: 700px;
+      width: 100%;
+      z-index: -2;
+
+      &-overlay {
+        background-color: rgba(0, 0, 0, 0.13);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &--text {
+          color: #fff;
+          font-size: 100px;
+        }
+      }
+    }
+    &__post {
+      width: 100%;
+      width: 45%;
+      margin: 0 auto;
+      &-div {
+        width: 100%;
+        width: 70%;
+        margin: 0 auto;
+        &--small {
+          background-color: $grey;
+          border-radius: 5px;
+        }
+      }
+      &-text {
+      }
     }
   }
 }
