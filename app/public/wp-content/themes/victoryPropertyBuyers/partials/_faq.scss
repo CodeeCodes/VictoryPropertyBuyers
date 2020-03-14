@@ -15,15 +15,16 @@
     height: 700px;
     margin: 0 auto;
     &-overlay {
-      font-size: 60px;
+      font-size: 9rem;
+      margin: 0;
       color: $white;
     }
   }
   &__info {
     margin: 30px 0;
-    width: 90%;
+    width: 100%;
     border-radius: 5px;
-    padding: 30px;
+    padding: 0;
     background-color: $grey;
     &-pic {
       width: 100%;
@@ -33,7 +34,7 @@
     }
     &--unset {
       margin: 30px 0;
-      width: 97%;
+      width: 100%;
 
       padding: 0;
       background-color: $grey;
@@ -45,7 +46,7 @@
       }
     }
     &-text {
-      font-size: 11px;
+      font-size: 16px;
     }
   }
   &__div {
@@ -82,7 +83,70 @@
       height: 700px;
       margin: 0 auto;
       &-overlay {
-        font-size: 60px;
+        font-size: 12rem;
+        color: $white;
+      }
+    }
+    &__info {
+      margin: 30px 0;
+      width: 49%;
+
+      &-pic {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      &--unset {
+        width: 49%;
+        padding: 0;
+      }
+      &-list {
+        &--item {
+          list-style: unset;
+          font-size: 11px;
+        }
+      }
+      &-text {
+        font-size: 13px;
+      }
+    }
+    &__div {
+      display: flex;
+      &--right {
+      }
+      &--left {
+      }
+      &-big {
+        &--flex {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin: 0 5%;
+        }
+      }
+    }
+  }
+}
+@include large {
+  .faq {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+    &__image {
+      background-image: url("images/pic10.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 700px;
+      margin: 0 auto;
+      &-overlay {
+        font-size: 15rem;
         color: $white;
       }
     }
@@ -112,7 +176,7 @@
         }
       }
       &-text {
-        font-size: 11px;
+        font-size: 12px;
       }
     }
     &__div {

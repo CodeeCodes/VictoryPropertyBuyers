@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA;;gFAEgF;AAEhF,AAAA,YAAY,CAAA,AAAA,gBAAC,EAAkB,kBAAkB,AAApC,EAAsC;EACjD,OAAO,EAAE,YAAY;CACtB",
-    "sources": [
-        "admin-editor-styles.scss"
-    ],
-    "names": [],
-    "file": "admin-editor-styles.css"
-}

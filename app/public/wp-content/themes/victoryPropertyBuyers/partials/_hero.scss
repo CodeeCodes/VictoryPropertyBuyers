@@ -15,7 +15,7 @@
     align-items: center;
     &-text {
       color: #fff;
-      font-size: 140px;
+      font-size: 5rem;
       text-align: center;
     }
   }
@@ -39,7 +39,21 @@
   .hero {
     &__overlay {
       &-text {
-        font-size: 200px;
+        font-size: 6rem;
+        padding-left: 0;
+      }
+    }
+    &__bottom {
+      &-text {
+      }
+    }
+  }
+}
+@include large {
+  .hero {
+    &__overlay {
+      &-text {
+        font-size: 11rem;
         padding-left: 0;
       }
     }
