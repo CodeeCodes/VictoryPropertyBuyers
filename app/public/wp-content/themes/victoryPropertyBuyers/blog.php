@@ -23,6 +23,7 @@ get_header()
                                     ?></p>
 
     <?php  } ?>
+
 </div>
 
 <?php

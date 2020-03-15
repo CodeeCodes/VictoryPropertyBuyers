@@ -6,7 +6,7 @@ get_header()
     <div class="blog__hero">
         <div class="blog__hero-overlay">
             <h1 class="blog__hero-overlay--text">
-                <strong><?php echo $blogName  ?></strong>
+                <?php echo $blogName  ?>
             </h1>
         </div>
     </div>
@@ -19,16 +19,36 @@ get_header()
     while (have_posts()) {
         the_post(); ?>
         <div class="blog__post-div--small">
-            <h1 class="blog__post"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-            <?php
-            the_content();
-            ?>
+            <div class="blog__post--flex">
+                <h1 class="blog__post"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+                <div class="blog__post-user">
+                    <p class="blog__post-user--text">
+                        Posted by <?php
+                                    the_author_posts_link()
+                                    ?>
+                        on
+                        <?php
+                        the_time('F j, Y')
+                        ?>
+                        in
+                        <?php
+                        //get keyword needs to be echoed out
+                        echo get_the_category_list(', ');
+                        ?>
+                    </p>
+                </div>
+                <?php
+                the_excerpt();
+                ?>
+                <p class="blog__post-continue"><a class="blog__post-continue--link" href="<?php
+                                                                                            the_permalink(); ?>">Continue Reading &raquo;</a></p>
+            </div>
+        <?php  }
+        ?>
+        <?php
+        echo paginate_links();
+        ?>
         </div>
-
-    <?php  }
-    ?>
-
-</div>
-<?php
-get_footer()
-?>
+        <?php
+        get_footer()
+        ?>

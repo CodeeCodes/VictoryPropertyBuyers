@@ -51,6 +51,7 @@
 }
 @include large {
   .hero {
+    margin-top: 125px;
     &__overlay {
       &-text {
         font-size: 11rem;
