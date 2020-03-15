@@ -75,12 +75,13 @@ li {
 .colouredDiv--white {
   height: 3px;
   width: 100%;
+  margin: 15px 0;
   background-color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
   .colouredDiv {
-    height: 100%;
+    height: 450px;
     width: 3px;
   }
   .colouredDiv--white {

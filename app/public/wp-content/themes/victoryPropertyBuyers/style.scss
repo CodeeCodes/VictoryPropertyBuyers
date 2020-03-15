@@ -74,12 +74,13 @@ li {
   &--white {
     height: 3px;
     width: 100%;
+    margin: 15px 0;
     background-color: $white;
   }
 }
 @include medium {
   .colouredDiv {
-    height: 100%;
+    height: 450px;
     width: 3px;
     &--white {
       height: 450px;
