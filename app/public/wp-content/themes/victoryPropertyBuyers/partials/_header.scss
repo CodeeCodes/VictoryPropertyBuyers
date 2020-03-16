@@ -39,13 +39,14 @@
   }
   &__social {
     &-bar {
-      background-color: rgb(247, 201, 145);
+      background-color: $lightBlue;
       height: fit-content;
       display: flex;
       justify-content: space-between;
       padding: 0 5%;
 
       &--heading {
+        color: $blue;
         margin: 0;
         padding: 5px;
         width: 60%;
@@ -91,7 +92,6 @@
     }
     &__social {
       &-bar {
-        background-color: rgb(247, 201, 145);
         height: fit-content;
         display: flex;
         padding: 0 9.8%;
