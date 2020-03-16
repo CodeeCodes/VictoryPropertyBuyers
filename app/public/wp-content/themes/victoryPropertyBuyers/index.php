@@ -43,12 +43,13 @@ get_header()
                 <p class="blog__post-continue"><a class="blog__post-continue--link" href="<?php
                                                                                             the_permalink(); ?>">Continue Reading &raquo;</a></p>
             </div>
-        <?php  }
-        ?>
-        <?php
-        echo paginate_links();
-        ?>
         </div>
-        <?php
-        get_footer()
-        ?>
+    <?php  }
+    ?>
+    <?php
+    echo paginate_links();
+    ?>
+</div>
+<?php
+get_footer()
+?>

@@ -7,8 +7,10 @@ Template Name: Faq
 get_header()
 ?>
 <div class="faq">
+      <div class="faq__hero-overlay">
     <div class=faq__image>
-        <h2 class="faq__image-overlay">FAQ</h2>
+            <h2 class="faq__image-overlay">FAQ</h2>
+        </div>
     </div>
     <div class="faq__div-big--flex">
         <div class="faq__info">
