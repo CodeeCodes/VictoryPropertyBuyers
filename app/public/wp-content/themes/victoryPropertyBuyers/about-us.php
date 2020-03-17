@@ -27,7 +27,7 @@ get_header()
     </p>
     <div class="about__div">
         <div class="about__image-div">
-            <img class="about__image" src="/wp-content/themes/victoryPropertyBuyers/images/pic8.jpeg" alt="About" />
+            <img class="about__image" src="/wp-content/themes/victoryPropertyBuyers/images/about2.jpg" alt="About" />
         </div>
         <div>
         <p class="about__text--flex">We have always been interested in increasing our Real Estate education, and are
@@ -43,7 +43,10 @@ get_header()
         </p>
     </div>
     </div>
-    <p class="about__text"> In our free time, we enjoy being outdoors, whether going to the beach or going
+    <div class="about__div">
+     
+         <div>
+    <p class="about__text--flex"> In our free time, we enjoy being outdoors, whether going to the beach or going
         for a hike up the mountain. We recently did a road trip across the country and visited 9 National Parks.
 
     </p>
@@ -52,6 +55,11 @@ get_header()
         issue with selling your home and to feel comfortable in the process.
 
     </p>
+    </div>
+         <div class="about__image-div">
+            <img class="about__image" src="/wp-content/themes/victoryPropertyBuyers/images/about1.jpg" alt="About" />
+        </div>
+</div>
 </div>
 
 <?php

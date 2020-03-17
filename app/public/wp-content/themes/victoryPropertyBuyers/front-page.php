@@ -23,7 +23,7 @@ get_header();
             <h2 class="how__div-heading"> Step 1: </h2>
             <p class="how__div-text">
                 Click the <strong> CASH OFFER </strong> button to submit your contact details and the property address of the home you wish to sell. Or if you’d like to speak with us directly
-                about your situation, call us at 619-900-1080.
+                about your situation, call us at <a class="number" href="tel:+16199001080">+1 619-900-1080</a>
             </p>
         </div>
         <div class="colouredDiv--white"></div>
@@ -64,7 +64,7 @@ get_header();
                 Our offers are completely free of obligation. We are here to help you find a solution and “not to judge” you on your
                 current situation. You can reveal anything to us, and no matter what your needs are, we can offer a deal.
                 Our biggest mission is to find a win-win solution. We just want to make this process as simple and comfortable as possible.
-                There is no pressure or obligation to close with us, even if you are unsure, give us a call: 619-900-1080 and we’d love to
+                There is no pressure or obligation to close with us, even if you are unsure, give us a call:<a class="number" href="tel:+16199001080">+1 619-900-1080</a>and we’d love to
                 speak with you about your situation and see what we can do for you.
             </p>
         </div>
@@ -105,6 +105,7 @@ get_header();
         </div>
     </div>
 </div>
+
 
 
 

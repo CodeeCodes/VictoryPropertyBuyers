@@ -78,6 +78,11 @@ li {
     background-color: $white;
   }
 }
+.number {
+  color: $orange;
+  margin: 0 1%;
+  // background-color: $lightBlue;
+}
 @include medium {
   .colouredDiv {
     height: 450px;
