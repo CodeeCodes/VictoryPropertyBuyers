@@ -26,8 +26,14 @@ function codeecodes_files()
 add_action('wp_enqueue_scripts', 'codeecodes_files');
 
 //Removing the bar bump on the html attribute
-function remove_admin_login_header() {
+function remove_admin_login_header()
+{
     remove_action('wp_head', '_admin_bar_bump_cb');
 }
 add_action('get_header', 'remove_admin_login_header');
 
+//Nav Menus
+register_nav_menus(array(
+    'primary' => __('Primary Menu'),
+    'footer' => __('Footer Menu')
+));

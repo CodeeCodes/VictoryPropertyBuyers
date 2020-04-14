@@ -17,6 +17,13 @@
       the_post(); ?>
 
       <h1 class="blog__post-heading"><?php the_title(); ?></h1>
+<div class="blog__flex">
+          <div class="blog__post-user--back">
+        <a href="<?php echo site_url('/blog'); ?>"> Blog Home</a>
+      </div>
+
+         <!-- Needs to know if included -->
+
       <div class="blog__post-user">
         <p class="blog__post-user--text">
           Posted by <?php
@@ -32,10 +39,13 @@
           echo get_the_category_list(', ');
           ?>
         </p>
-      </div>
+      </div> 
+</div>
+    
       <?php
       the_content();
       ?>
+     
   </div>
 
   <?php  } ?>

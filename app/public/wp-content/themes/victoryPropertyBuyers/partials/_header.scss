@@ -5,9 +5,22 @@
   height: fit-content;
   background-color: white;
   &__nav {
-    width: 50%;
-    text-align: center;
-    padding-top: 35px;
+    width: 70%;
+
+    & ul,
+    div {
+      display: flex;
+      width: 100%;
+      padding: 0;
+    }
+    & li {
+      width: 33%;
+      text-align: center;
+      padding-top: 10px;
+      & .current-menu-item a:hover {
+        background-color: $orange;
+      }
+    }
     &-low {
       display: flex;
       padding: 0 5%;
@@ -63,6 +76,9 @@
       display: flex;
       justify-content: flex-end;
     }
+  }
+  & ul.children {
+    display: flex;
   }
 }
 @include medium {

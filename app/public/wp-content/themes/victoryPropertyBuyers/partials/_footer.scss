@@ -8,6 +8,21 @@
     width: 90%;
     margin: 0 auto;
     justify-content: space-between;
+    &--small {
+      & ul,
+      div {
+        display: flex;
+        width: 100%;
+        padding: 0;
+      }
+      & li {
+        width: 33%;
+        padding-top: 10px;
+        & .current-page-item a:hover {
+          background-color: $orange;
+        }
+      }
+    }
     &-div {
       &--left {
         width: 50%;
@@ -40,7 +55,7 @@
     &__nav {
       display: flex;
       height: 100%;
-      width: 85%;
+      width: 80%;
       margin: 0 auto;
       justify-content: space-between;
       &-div {
