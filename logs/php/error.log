@@ -37,3 +37,19 @@ Stack trace:
 [11-Mar-2020 18:26:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/index.php on line 40
 [16-Mar-2020 22:53:35 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 110
 [14-Apr-2020 19:53:42 UTC] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/functions.php on line 38
+[15-Apr-2020 18:01:32 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/update.php on line 162
+[15-Apr-2020 18:01:32 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/update.php on line 162
+[15-Apr-2020 18:01:32 UTC] PHP Stack trace:
+[15-Apr-2020 18:01:32 UTC] PHP Stack trace:
+[15-Apr-2020 18:01:32 UTC] PHP   1. {main}() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-cron.php:0
+[15-Apr-2020 18:01:32 UTC] PHP   1. {main}() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-cron.php:0
+[15-Apr-2020 18:01:32 UTC] PHP   2. do_action_ref_array() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-cron.php:138
+[15-Apr-2020 18:01:32 UTC] PHP   2. do_action_ref_array() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-cron.php:138
+[15-Apr-2020 18:01:32 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:544
+[15-Apr-2020 18:01:32 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:544
+[15-Apr-2020 18:01:32 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[15-Apr-2020 18:01:32 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[15-Apr-2020 18:01:32 UTC] PHP   5. wp_version_check() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[15-Apr-2020 18:01:32 UTC] PHP   5. wp_version_check() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[15-Apr-2020 18:01:32 UTC] PHP   6. trigger_error() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/update.php:162
+[15-Apr-2020 18:01:32 UTC] PHP   6. trigger_error() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/update.php:162
