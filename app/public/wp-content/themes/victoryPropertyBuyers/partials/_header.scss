@@ -17,8 +17,14 @@
       width: 33%;
       text-align: center;
       padding-top: 10px;
-      & .current-menu-item a:hover {
-        background-color: $orange;
+      & a {
+        color: $victoryBlue;
+        transition: ease 0.5s;
+      }
+      & a:hover {
+        color: $orange;
+        border-radius: 2px;
+        transform: scale(2);
       }
     }
     &-low {

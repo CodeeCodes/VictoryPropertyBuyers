@@ -216,8 +216,8 @@ get_header()
         </div>
 
     </div>
-    <div class="cashButton-div">
-        <button class="cashButton popmake-cash-offer">
+    <div class="cash-button-div">
+        <button class="cash-button ">
             <h1>CASH OFFER</h1>
         </button>
     </div>

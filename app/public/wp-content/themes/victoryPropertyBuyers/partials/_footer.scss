@@ -18,8 +18,13 @@
       & li {
         width: 33%;
         padding-top: 10px;
-        & .current-page-item a:hover {
-          background-color: $orange;
+        & a {
+          color: $victoryBlue;
+          transition: ease 0.5s;
+        }
+        & a:hover {
+          color: $orange;
+          transform: scale(1.5);
         }
       }
     }

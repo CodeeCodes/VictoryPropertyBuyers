@@ -147,8 +147,17 @@ li {
   padding-top: 10px;
 }
 
-.header__nav li .current-menu-item a:hover {
-  background-color: #f36625;
+.header__nav li a {
+  color: #4860d9;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.header__nav li a:hover {
+  color: #f36625;
+  border-radius: 2px;
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .header__nav-low {
@@ -1250,8 +1259,16 @@ li {
   padding-top: 10px;
 }
 
-.footer__nav--small li .current-page-item a:hover {
-  background-color: #f36625;
+.footer__nav--small li a {
+  color: #4860d9;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.footer__nav--small li a:hover {
+  color: #f36625;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .footer__nav-div--left {
