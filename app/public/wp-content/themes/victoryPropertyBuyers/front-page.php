@@ -8,6 +8,9 @@ get_header();
         </h1>
     </div>
 </div>
+<div class="hero__video-div"><video class="hero__video"controlsList=”nodownload” controls>
+        <source src="/wp-content/themes/victoryPropertyBuyers/videos/welcome-vid.m4v" />
+    </video> </div>
 <div class="hero__bottom">
     <h1 class="hero__bottom-text">
         <strong>A Simple Fast Way To Sell Your House</strong>
@@ -44,7 +47,7 @@ get_header();
         </div>
 
     </div>
-    <button class="cash-button" >
+    <button class="cash-button">
         <h1>CASH OFFER</h1>
     </button>
 </div>
