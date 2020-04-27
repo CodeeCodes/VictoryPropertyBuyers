@@ -89,7 +89,7 @@ li {
   }
 }
 
-.cashButton {
+.cash-button {
   height: 60px;
   width: 250px;
   color: #000060;
@@ -104,16 +104,16 @@ li {
   transition: ease 0.5s;
 }
 
-.cashButton h1 {
+.cash-button h1 {
   margin: 0;
 }
 
-.cashButton:hover {
+.cash-button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.cashButton-div {
+.cash-button-div {
   text-align: center;
   margin: 10px auto;
 }

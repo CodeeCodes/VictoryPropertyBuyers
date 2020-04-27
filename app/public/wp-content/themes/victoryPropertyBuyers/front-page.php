@@ -44,7 +44,7 @@ get_header();
         </div>
 
     </div>
-    <button class="cashButton popmake-45 popmake-cash-offer-2">
+    <button class="cash-button" >
         <h1>CASH OFFER</h1>
     </button>
 </div>
