@@ -53,3 +53,57 @@ Stack trace:
 [15-Apr-2020 18:01:32 UTC] PHP   5. wp_version_check() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
 [15-Apr-2020 18:01:32 UTC] PHP   6. trigger_error() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/update.php:162
 [15-Apr-2020 18:01:32 UTC] PHP   6. trigger_error() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/update.php:162
+[01-May-2020 21:46:58 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/update.php on line 162
+[01-May-2020 21:46:58 UTC] PHP Stack trace:
+[01-May-2020 21:46:58 UTC] PHP   1. {main}() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-cron.php:0
+[01-May-2020 21:46:58 UTC] PHP   2. do_action_ref_array() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-cron.php:138
+[01-May-2020 21:46:58 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:544
+[01-May-2020 21:46:58 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[01-May-2020 21:46:58 UTC] PHP   5. wp_version_check() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[01-May-2020 21:46:58 UTC] PHP   6. trigger_error() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/update.php:162
+[01-May-2020 21:56:03 UTC] PHP Fatal error:  Uncaught Error: Class 'ActionScheduler_ActionFactory' not found in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php:17
+Stack trace:
+#0 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/functions.php(30): ActionScheduler::factory()
+#1 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1588370163, 'action_schedule...', Array, 'action-schedule...')
+#2 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/migration/Controller.php(99): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#3 /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php( in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php on line 17
+[01-May-2020 21:56:03 UTC] PHP Stack trace:
+[01-May-2020 21:56:03 UTC] PHP   1. {main}() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/admin-ajax.php:0
+[01-May-2020 21:56:03 UTC] PHP   2. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/admin-ajax.php:175
+[01-May-2020 21:56:03 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[01-May-2020 21:56:03 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[01-May-2020 21:56:03 UTC] PHP   5. wp_ajax_delete_plugin() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[01-May-2020 21:56:03 UTC] PHP   6. wp_send_json_success() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/includes/ajax-actions.php:4555
+[01-May-2020 21:56:03 UTC] PHP   7. wp_send_json() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:4056
+[01-May-2020 21:56:03 UTC] PHP   8. wp_die() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:4032
+[01-May-2020 21:56:03 UTC] PHP   9. _ajax_wp_die_handler() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:3348
+[01-May-2020 21:58:02 UTC] PHP Warning:  fopen(/Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/wpforms-lite/wpforms.php): failed to open stream: No such file or directory in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php on line 5974
+[01-May-2020 21:58:02 UTC] PHP Stack trace:
+[01-May-2020 21:58:02 UTC] PHP   1. {main}() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/admin-ajax.php:0
+[01-May-2020 21:58:02 UTC] PHP   2. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/admin-ajax.php:175
+[01-May-2020 21:58:02 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[01-May-2020 21:58:02 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[01-May-2020 21:58:02 UTC] PHP   5. wp_ajax_delete_plugin() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[01-May-2020 21:58:02 UTC] PHP   6. get_plugin_data() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/includes/ajax-actions.php:4515
+[01-May-2020 21:58:02 UTC] PHP   7. get_file_data() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/includes/plugin.php:86
+[01-May-2020 21:58:02 UTC] PHP   8. fopen() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:5974
+[01-May-2020 21:58:02 UTC] PHP Warning:  fread() expects parameter 1 to be resource, bool given in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php on line 5977
+[01-May-2020 21:58:02 UTC] PHP Stack trace:
+[01-May-2020 21:58:02 UTC] PHP   1. {main}() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/admin-ajax.php:0
+[01-May-2020 21:58:02 UTC] PHP   2. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/admin-ajax.php:175
+[01-May-2020 21:58:02 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[01-May-2020 21:58:02 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[01-May-2020 21:58:02 UTC] PHP   5. wp_ajax_delete_plugin() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[01-May-2020 21:58:02 UTC] PHP   6. get_plugin_data() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/includes/ajax-actions.php:4515
+[01-May-2020 21:58:02 UTC] PHP   7. get_file_data() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/includes/plugin.php:86
+[01-May-2020 21:58:02 UTC] PHP   8. fread() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:5977
+[01-May-2020 21:58:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php on line 5980
+[01-May-2020 21:58:02 UTC] PHP Stack trace:
+[01-May-2020 21:58:02 UTC] PHP   1. {main}() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/admin-ajax.php:0
+[01-May-2020 21:58:02 UTC] PHP   2. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/admin-ajax.php:175
+[01-May-2020 21:58:02 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[01-May-2020 21:58:02 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[01-May-2020 21:58:02 UTC] PHP   5. wp_ajax_delete_plugin() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[01-May-2020 21:58:02 UTC] PHP   6. get_plugin_data() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/includes/ajax-actions.php:4515
+[01-May-2020 21:58:02 UTC] PHP   7. get_file_data() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/includes/plugin.php:86
+[01-May-2020 21:58:02 UTC] PHP   8. fclose() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:5980

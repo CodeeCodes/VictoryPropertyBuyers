@@ -160,3 +160,7 @@
 [28-Apr-2020 12:52:56] NOTICE: Terminating ...
 [28-Apr-2020 12:52:56] NOTICE: Terminating ...
 [28-Apr-2020 12:52:56] NOTICE: exiting, bye-bye!
+[01-May-2020 14:46:47] NOTICE: fpm is running, pid 916
+[01-May-2020 14:46:47] NOTICE: ready to handle connections
+[01-May-2020 14:49:02] WARNING: [pool www] child 923 said into stderr: "sh: gs: command not found"
+[01-May-2020 14:49:04] WARNING: [pool www] child 923 said into stderr: "sh: gs: command not found"
