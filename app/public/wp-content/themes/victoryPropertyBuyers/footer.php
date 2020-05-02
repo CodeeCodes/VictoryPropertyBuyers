@@ -8,19 +8,19 @@
         <li class="footer__nav-list--item">
           <h5 class="footer__nav-list item-heading">Email: info@victorypropertybuyers.com</h5>
         </li>
-         <li class="footer__nav-list--item">
+        <li class="footer__nav-list--item">
           <h5 class="footer__nav-list item-heading">Office Hours:</h5>
         </li>
         <li class="footer__nav-list--item">
           <h5 class="footer__nav-list item-heading">Monday - Sunday</h5>
         </li>
-           <li class="footer__nav-list--item">
+        <li class="footer__nav-list--item">
           <h5 class="footer__nav-list item-heading">24/7 7 days a week</h5>
         </li>
       </ul>
-             <nav class="footer__nav--small">
-          <?php $args = array('theme_location' => 'footer') ?>
-        <?php wp_nav_menu( $args); ?>
+      <nav class="footer__nav--small">
+        <?php $args = array('theme_location' => 'footer') ?>
+        <?php wp_nav_menu($args); ?>
       </nav>
     </div>
     <div class="footer__nav-div--right">
@@ -38,8 +38,25 @@
     </div>
 
   </nav>
-  
+
 </footer>
+<div class="form__popup-overlay">
+  <div class="form__popup">
+
+    <form action="/action_page.php" class="form__popup-container" id="myForm">
+      <h1>Cash Offer</h1>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit" class="btn">Login</button>
+      <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+</div>
 </body>
 
 </html>

@@ -8,9 +8,49 @@ get_header();
         </h1>
     </div>
 </div>
-<div class="hero__video-div"><video class="hero__video"controlsList=”nodownload” controls>
-        <source src="/wp-content/themes/victoryPropertyBuyers/videos/welcome-vid.m4v" />
-    </video> </div>
+<div class="hero__video-div">
+
+    <div class="hero__video-div--small">
+        <video class="hero__video" controlsList=”nodownload” controls>
+            <source src="/wp-content/themes/victoryPropertyBuyers/videos/welcome-vid.m4v" />
+        </video>
+    </div>
+    <div class="hero__video-div--small--right">
+        <h2 class="hero__blog-heading">Most Recent Blogs</h2>
+        <?php
+        $homepagePosts = new WP_Query(array(
+            'posts_per_page' => 4
+        ));
+
+        while ($homepagePosts->have_posts()) {
+            $homepagePosts->the_post(); ?>
+            <div class="hero__blog-div">
+                <div class="hero__blog-date">
+              
+                    <h5 class="hero__blog-date--month"><?php
+                                                            the_time('M');
+                                                            ?></h5>
+                                                       
+                    <h5 class="hero__blog-date--day"><?php
+                                                        the_time('d');
+                                                        ?></h5>
+             </div>
+                <div class="hero__blog-div--small">
+                    <h3 class="hero__blog-summary"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <p class="hero__blog-content"><a href="<?php the_permalink(); ?>">
+                        <?php
+                        echo wp_trim_words(get_the_content(), 10);
+                        ?> </a>
+                    </p>
+                </div>
+            </div>
+
+
+        <?php    }
+        ?>
+    </div>
+</div>
+</div>
 <div class="hero__bottom">
     <h1 class="hero__bottom-text">
         <strong>A Simple Fast Way To Sell Your House</strong>

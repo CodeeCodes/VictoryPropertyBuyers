@@ -5,10 +5,16 @@ get_header()
 <div class="blog">
     <div class="blog__hero">
         <div class="blog__hero-overlay">
-            <h1 class="blog__hero-overlay--text">
-                <?php the_archive_title();  ?>
-            </h1>
+            <div class="blog-flex">
+                <h1 class="blog__hero-overlay--text">
+                    <?php the_archive_title();  ?>
+                </h1>
+                <h5 class="blog__hero-overlay--text-small">
+                    <?php the_archive_description(); ?>
+                </h5>
+            </div>
         </div>
+
     </div>
 </div>
 

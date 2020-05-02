@@ -107,3 +107,46 @@ Stack trace:
 [01-May-2020 21:58:02 UTC] PHP   6. get_plugin_data() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/includes/ajax-actions.php:4515
 [01-May-2020 21:58:02 UTC] PHP   7. get_file_data() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-admin/includes/plugin.php:86
 [01-May-2020 21:58:02 UTC] PHP   8. fclose() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:5980
+[01-May-2020 23:32:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'victorypropertybuyers_files' not found or invalid function name in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php on line 287
+[01-May-2020 23:32:50 UTC] PHP Stack trace:
+[01-May-2020 23:32:50 UTC] PHP   1. {main}() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/index.php:0
+[01-May-2020 23:32:50 UTC] PHP   2. require() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/index.php:17
+[01-May-2020 23:32:50 UTC] PHP   3. require_once() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-blog-header.php:19
+[01-May-2020 23:32:50 UTC] PHP   4. include() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template-loader.php:106
+[01-May-2020 23:32:50 UTC] PHP   5. get_header() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php:2
+[01-May-2020 23:32:50 UTC] PHP   6. locate_template() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/general-template.php:41
+[01-May-2020 23:32:50 UTC] PHP   7. load_template() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php:672
+[01-May-2020 23:32:50 UTC] PHP   8. require_once() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php:723
+[01-May-2020 23:32:50 UTC] PHP   9. wp_head() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php:5
+[01-May-2020 23:32:50 UTC] PHP  10. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/general-template.php:2884
+[01-May-2020 23:32:50 UTC] PHP  11. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[01-May-2020 23:32:50 UTC] PHP  12. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[01-May-2020 23:32:50 UTC] PHP  13. wp_enqueue_scripts() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[01-May-2020 23:32:50 UTC] PHP  14. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/script-loader.php:2294
+[01-May-2020 23:32:50 UTC] PHP  15. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[01-May-2020 23:32:50 UTC] PHP  16. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[01-May-2020 23:32:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'victorypropertybuyers_files' not found or invalid function name in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php on line 287
+[01-May-2020 23:32:53 UTC] PHP Stack trace:
+[01-May-2020 23:32:53 UTC] PHP   1. {main}() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/index.php:0
+[01-May-2020 23:32:53 UTC] PHP   2. require() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/index.php:17
+[01-May-2020 23:32:53 UTC] PHP   3. require_once() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-blog-header.php:19
+[01-May-2020 23:32:53 UTC] PHP   4. include() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template-loader.php:106
+[01-May-2020 23:32:53 UTC] PHP   5. get_header() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php:2
+[01-May-2020 23:32:53 UTC] PHP   6. locate_template() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/general-template.php:41
+[01-May-2020 23:32:53 UTC] PHP   7. load_template() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php:672
+[01-May-2020 23:32:53 UTC] PHP   8. require_once() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/template.php:723
+[01-May-2020 23:32:53 UTC] PHP   9. wp_head() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/header.php:5
+[01-May-2020 23:32:53 UTC] PHP  10. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/general-template.php:2884
+[01-May-2020 23:32:53 UTC] PHP  11. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[01-May-2020 23:32:53 UTC] PHP  12. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[01-May-2020 23:32:53 UTC] PHP  13. wp_enqueue_scripts() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[01-May-2020 23:32:53 UTC] PHP  14. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/script-loader.php:2294
+[01-May-2020 23:32:53 UTC] PHP  15. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[01-May-2020 23:32:53 UTC] PHP  16. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[02-May-2020 01:04:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 145
+[02-May-2020 01:05:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 145
+[02-May-2020 01:05:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 145
+[02-May-2020 01:08:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 148
+[02-May-2020 01:08:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 148
+[02-May-2020 01:09:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 149
+[02-May-2020 01:09:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 149
