@@ -1,5 +1,5 @@
 <?php
-function codeecodes_files()
+function victorypropertybuyers_files()
 {
     //loading JS files
     // wp_enqueue_script('codeecodes-js', get_theme_file_uri('/js/scripts-bundled.js'),NULL, microtime(), true);
@@ -20,10 +20,14 @@ function codeecodes_files()
         wp_enqueue_style('victoryPropertyBuyers_style', get_stylesheet_uri());
     }
 }
+//load JS files
+    wp_enqueue_script('codeecodes-js', get_theme_file_uri('/js/scripts-bundled.js'),NULL, microtime(), true);
+
 
 //calling function
 //first arg "what instructions", second "name of function"
-add_action('wp_enqueue_scripts', 'codeecodes_files');
+add_action('wp_enqueue_scripts', 'victorypropertybuyers_files');
+
 
 //Removing the bar bump on the html attribute
 function remove_admin_login_header()
@@ -31,6 +35,13 @@ function remove_admin_login_header()
     remove_action('wp_head', '_admin_bar_bump_cb');
 }
 add_action('get_header', 'remove_admin_login_header');
+
+//Title header name
+add_action('after_setup_theme', 'victorypropertybuyers_features');
+
+function victorypropertybuyers_features(){
+    add_theme_support('title-tag');
+}
 
 //Nav Menus
 register_nav_menus(array(
