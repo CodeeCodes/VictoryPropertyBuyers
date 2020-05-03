@@ -26,6 +26,7 @@ get_header();
             $homepagePosts->the_post(); ?>
             <div class="hero__blog-div">
                 <div class="hero__blog-date">
+<<<<<<< HEAD
 
                     <h5 class="hero__blog-date--month"><?php
                                                         the_time('M');
@@ -41,13 +42,33 @@ get_header();
                             <?php
                             echo wp_trim_words(get_the_content(), 10);
                             ?><a href="<?php the_permalink(); ?>"> <span>Read More</span> </a>
+=======
+              
+                    <h5 class="hero__blog-date--month"><?php
+                                                            the_time('M');
+                                                            ?></h5>
+                                                       
+                    <h5 class="hero__blog-date--day"><?php
+                                                        the_time('d');
+                                                        ?></h5>
+             </div>
+                <div class="hero__blog-div--small">
+                    <h3 class="hero__blog-summary"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <p class="hero__blog-content"><a href="<?php the_permalink(); ?>">
+                        <?php
+                        echo wp_trim_words(get_the_content(), 10);
+                        ?> </a>
+>>>>>>> 49e8f6a01fa25894160a29c494aaed40b3bd83b7
                     </p>
                 </div>
             </div>
 
 
         <?php    }
+<<<<<<< HEAD
         wp_reset_postdata();
+=======
+>>>>>>> 49e8f6a01fa25894160a29c494aaed40b3bd83b7
         ?>
     </div>
 </div>
