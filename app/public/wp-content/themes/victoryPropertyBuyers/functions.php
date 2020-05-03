@@ -27,10 +27,6 @@ function victorypropertybuyers_files()
 //calling function
 //first arg "what instructions", second "name of function"
 add_action('wp_enqueue_scripts', 'victorypropertybuyers_files');
-<<<<<<< HEAD
-
-=======
->>>>>>> 49e8f6a01fa25894160a29c494aaed40b3bd83b7
 
 //Removing the bar bump on the html attribute
 function remove_admin_login_header()
