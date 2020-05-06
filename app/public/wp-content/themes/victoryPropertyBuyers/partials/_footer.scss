@@ -9,32 +9,14 @@
     margin: 0 auto;
     justify-content: space-between;
     &--small {
-      & ul,
-      div {
-        display: flex;
-        width: 100%;
-        padding: 0;
-      }
-      & li {
-        width: 33%;
-        padding-top: 10px;
-        & a {
-          color: $victoryBlue;
-          transition: ease 0.5s;
-        }
-        & a:hover {
-          color: $orange;
-          transform: scale(1.5);
-        }
-      }
     }
     &-div {
       &--left {
-        width: 50%;
+        width: 33%;
         margin-right: 10%;
       }
       &--right {
-        width: 50%;
+        width: 33%;
       }
     }
     &-list {
@@ -51,6 +33,35 @@
       margin: 0 2%;
     }
   }
+  &__wp {
+    &-menu {
+      width: 100%;
+    }
+    &-flex {
+      width: 33%;
+      display: flex;
+      flex-wrap: wrap;
+      & ul,
+      div {
+        padding: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+      }
+      & li {
+        width: 33%;
+        padding-top: 10px;
+        & a {
+          color: $white;
+          transition: ease 0.5s;
+        }
+        & a:hover {
+          color: $orange;
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
 }
 @include medium {
   .footer {
@@ -65,17 +76,18 @@
       justify-content: space-between;
       &-div {
         &--left {
-          width: 50%;
+          width: 33%;
+          margin-right: 0;
         }
         &--right {
-          width: 50%;
+          width: 33%;
           display: flex;
-          justify-content: right;
         }
       }
       &-list {
         & .item-heading {
           color: $white;
+          width: 100%;
         }
       }
     }

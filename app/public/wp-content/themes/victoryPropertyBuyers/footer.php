@@ -18,10 +18,7 @@
           <h5 class="footer__nav-list item-heading">24/7 7 days a week</h5>
         </li>
       </ul>
-      <nav class="footer__nav--small">
-        <?php $args = array('theme_location' => 'footer') ?>
-        <?php wp_nav_menu($args); ?>
-      </nav>
+
     </div>
     <div class="footer__nav-div--right">
       <ul class="footer__nav-list">
@@ -36,7 +33,14 @@
         </li>
       </ul>
     </div>
+    <div class="footer__wp-flex">
+      <!--  WP Navigation input from functions.php   -->
+      <nav class="footer__wp-menu">
+        <?php $args = array('theme_location' => 'footer') ?>
+        <?php wp_nav_menu($args); ?>
+      </nav>
 
+    </div>
   </nav>
 
 </footer>

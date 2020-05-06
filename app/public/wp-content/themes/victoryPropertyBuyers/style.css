@@ -90,13 +90,12 @@ li {
 }
 
 .cash-button {
-  height: 60px;
-  width: 250px;
-  color: #000060;
-  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-  background-color: #f36625;
-  border-radius: 7px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  color: #203f67;
+  border: 1px solid #203f67;
+  width: 420px;
+  height: 130px;
   margin: 0;
   margin-bottom: 10px;
   cursor: pointer;
@@ -125,7 +124,7 @@ li {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: white;
+  background-color: #fff;
 }
 
 .header__nav {
@@ -139,31 +138,39 @@ li {
   display: flex;
   width: 100%;
   padding: 0;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .header__nav li {
-  width: 33%;
-  text-align: center;
-  padding-top: 10px;
+  width: 20%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__nav li a {
-  color: #4860d9;
-  -webkit-transition: ease 0.5s;
-  transition: ease 0.5s;
+  color: #fff;
+  padding: 10px;
 }
 
-.header__nav li a:hover {
-  color: #f36625;
-  border-radius: 2px;
-  -webkit-transform: scale(2);
-          transform: scale(2);
+.header__nav li a a:hover {
+  border: 1px solid #fff;
 }
 
 .header__nav-low {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #203f67;
   padding: 0 5%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -210,10 +217,10 @@ li {
 }
 
 .header__social-bar {
-  background-color: #c9dbf3;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  background-color: #f5f5f5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,7 +235,7 @@ li {
   margin: 0;
   padding: 5px;
   width: 70%;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .header__svg {
@@ -238,7 +245,7 @@ li {
 }
 
 .header__svg-div {
-  width: 25%;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,7 +294,6 @@ li {
   .header__social-bar--heading {
     margin: 0;
     padding: 5px;
-    font-size: 1rem;
     padding-top: 15px;
   }
   .header__svg {
@@ -301,6 +307,7 @@ li {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    width: 25%;
   }
 }
 
@@ -1259,39 +1266,13 @@ li {
           justify-content: space-between;
 }
 
-.footer__nav--small ul,
-.footer__nav--small div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  padding: 0;
-}
-
-.footer__nav--small li {
-  width: 33%;
-  padding-top: 10px;
-}
-
-.footer__nav--small li a {
-  color: #4860d9;
-  -webkit-transition: ease 0.5s;
-  transition: ease 0.5s;
-}
-
-.footer__nav--small li a:hover {
-  color: #f36625;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-}
-
 .footer__nav-div--left {
-  width: 50%;
+  width: 33%;
   margin-right: 10%;
 }
 
 .footer__nav-div--right {
-  width: 50%;
+  width: 33%;
 }
 
 .footer__nav-list {
@@ -1308,6 +1289,49 @@ li {
   height: 30px;
   width: 20%;
   margin: 0 2%;
+}
+
+.footer__wp-menu {
+  width: 100%;
+}
+
+.footer__wp-flex {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__wp-flex ul,
+.footer__wp-flex div {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer__wp-flex li {
+  width: 33%;
+  padding-top: 10px;
+}
+
+.footer__wp-flex li a {
+  color: #fff;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.footer__wp-flex li a:hover {
+  color: #f36625;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 @media only screen and (min-width: 768px) {
@@ -1328,19 +1352,18 @@ li {
             justify-content: space-between;
   }
   .footer__nav-div--left {
-    width: 50%;
+    width: 33%;
+    margin-right: 0;
   }
   .footer__nav-div--right {
-    width: 50%;
+    width: 33%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
   }
   .footer__nav-list .item-heading {
     color: #fff;
+    width: 100%;
   }
 }
 
