@@ -40,15 +40,15 @@
     border-radius: 5px;
     &-div {
       display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
       height: fit-content;
       padding: 20px 0;
-
       margin: 0 5%;
       &--small {
-        width: 60%;
+        margin-bottom: 20px;
+
         &--right {
-          margin-left: 10%;
-          width: 30%;
           background-color: $lightBlue;
         }
       }
@@ -100,6 +100,22 @@
     }
     &__bottom {
       &-text {
+      }
+    }
+    &__video {
+      &-div {
+        flex-direction: row;
+        flex-wrap: unset;
+
+        &--small {
+          width: 60%;
+          margin-bottom: 0;
+
+          &--right {
+            width: 30%;
+            margin-left: 10%;
+          }
+        }
       }
     }
   }

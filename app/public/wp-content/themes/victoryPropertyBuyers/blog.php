@@ -5,7 +5,9 @@ get_header()
     <div class="blog__hero">
         <div class="blog__hero-overlay">
             <h1 class="blog__hero-overlay--text">
-                <strong>Welcome to Our Blog</strong>
+             <?php
+             the_title();
+             ?>
             </h1>
         </div>
     </div>

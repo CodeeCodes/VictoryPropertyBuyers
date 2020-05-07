@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php wp_head(); ?>
 </head>
 
@@ -19,8 +20,8 @@
         <div class="header__image-div"><img class="header__image" src="/wp-content/themes/victoryPropertyBuyers/images/victory-property-buyers-logo.jpg" alt="logo"></div>
       </a>
       <nav class="header__nav">
-          <?php $args = array('theme_location' => 'primary') ?>
-        <?php wp_nav_menu( $args); ?>
+        <?php $args = array('theme_location' => 'primary') ?>
+        <?php wp_nav_menu($args); ?>
       </nav>
     </div>
   </nav>

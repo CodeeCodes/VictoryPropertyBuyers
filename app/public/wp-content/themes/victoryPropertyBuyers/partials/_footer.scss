@@ -12,11 +12,10 @@
     }
     &-div {
       &--left {
-        width: 33%;
-        margin-right: 10%;
+        width: 50%;
       }
       &--right {
-        width: 33%;
+        width: 50%;
       }
     }
     &-list {
@@ -45,7 +44,7 @@
       div {
         padding: 0;
         display: flex;
-        width: 100%;
+        // width: 100%;
         flex-direction: row;
       }
       & li {

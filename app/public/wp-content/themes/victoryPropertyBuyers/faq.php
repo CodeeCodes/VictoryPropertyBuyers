@@ -216,6 +216,7 @@ get_header()
         </div>
 
     </div>
+   
     <div class="cash-button-div">
         <button class="cash-button ">
             <h1>CASH OFFER</h1>
