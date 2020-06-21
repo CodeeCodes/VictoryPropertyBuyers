@@ -155,3 +155,42 @@ Stack trace:
 [03-May-2020 23:32:35 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/functions.php on line 30
 [03-May-2020 23:33:29 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 68
 [03-May-2020 23:33:30 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/front-page.php on line 68
+[21-Jun-2020 16:14:40 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/themes/victoryPropertyBuyers/faq copy.php on line 22
+[21-Jun-2020 17:08:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 168714440 bytes) in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php on line 4609
+[21-Jun-2020 17:08:53 UTC] PHP Stack trace:
+[21-Jun-2020 17:08:53 UTC] PHP   1. shutdown_action_hook() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/load.php:0
+[21-Jun-2020 17:08:53 UTC] PHP   2. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/load.php:960
+[21-Jun-2020 17:08:53 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[21-Jun-2020 17:08:53 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[21-Jun-2020 17:08:53 UTC] PHP   5. wp_ob_end_flush_all() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[21-Jun-2020 17:08:53 UTC] PHP   6. ob_end_flush() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:4609
+[21-Jun-2020 17:08:53 UTC] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[21-Jun-2020 17:08:53 UTC] PHP Stack trace:
+[21-Jun-2020 17:08:53 UTC] PHP   1. shutdown_action_hook() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/load.php:0
+[21-Jun-2020 17:08:53 UTC] PHP   2. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/load.php:960
+[21-Jun-2020 17:08:53 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[21-Jun-2020 17:08:53 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[21-Jun-2020 17:08:53 UTC] PHP   5. wp_ob_end_flush_all() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[21-Jun-2020 17:08:53 UTC] PHP   6. ob_end_flush() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:4609
+[21-Jun-2020 17:08:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 123208601 bytes) in /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/really-simple-ssl/class-mixed-content-fixer.php on line 159
+[21-Jun-2020 17:08:54 UTC] PHP Stack trace:
+[21-Jun-2020 17:08:54 UTC] PHP   1. shutdown_action_hook() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/load.php:0
+[21-Jun-2020 17:08:54 UTC] PHP   2. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/load.php:960
+[21-Jun-2020 17:08:54 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[21-Jun-2020 17:08:54 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[21-Jun-2020 17:08:54 UTC] PHP   5. wp_ob_end_flush_all() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[21-Jun-2020 17:08:54 UTC] PHP   6. ob_end_flush() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:4609
+[21-Jun-2020 17:08:54 UTC] PHP   7. rsssl_mixed_content_fixer->filter_buffer() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:4609
+[21-Jun-2020 17:08:54 UTC] PHP   8. rsssl_mixed_content_fixer->replace_insecure_links() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/really-simple-ssl/class-mixed-content-fixer.php:82
+[21-Jun-2020 17:08:54 UTC] PHP   9. str_replace() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/really-simple-ssl/class-mixed-content-fixer.php:159
+[21-Jun-2020 17:08:54 UTC] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[21-Jun-2020 17:08:54 UTC] PHP Stack trace:
+[21-Jun-2020 17:08:54 UTC] PHP   1. shutdown_action_hook() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/load.php:0
+[21-Jun-2020 17:08:54 UTC] PHP   2. do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/load.php:960
+[21-Jun-2020 17:08:54 UTC] PHP   3. WP_Hook->do_action() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/plugin.php:478
+[21-Jun-2020 17:08:54 UTC] PHP   4. WP_Hook->apply_filters() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:311
+[21-Jun-2020 17:08:54 UTC] PHP   5. wp_ob_end_flush_all() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/class-wp-hook.php:287
+[21-Jun-2020 17:08:54 UTC] PHP   6. ob_end_flush() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:4609
+[21-Jun-2020 17:08:54 UTC] PHP   7. rsssl_mixed_content_fixer->filter_buffer() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-includes/functions.php:4609
+[21-Jun-2020 17:08:54 UTC] PHP   8. rsssl_mixed_content_fixer->replace_insecure_links() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/really-simple-ssl/class-mixed-content-fixer.php:82
+[21-Jun-2020 17:08:54 UTC] PHP   9. str_replace() /Users/codeepalmer/Local Sites/victorypropertybuyers/app/public/wp-content/plugins/really-simple-ssl/class-mixed-content-fixer.php:159

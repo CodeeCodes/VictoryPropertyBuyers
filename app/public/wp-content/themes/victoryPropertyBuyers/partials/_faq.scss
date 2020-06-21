@@ -1,7 +1,11 @@
 .faq {
   width: 100%;
   height: auto;
-
+  &__list {
+    & li {
+      font-size: 11px;
+    }
+  }
   &__image {
     background-image: url("images/pic10.jpeg");
     background-position: center;

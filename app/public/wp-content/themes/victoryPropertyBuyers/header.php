@@ -6,7 +6,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class();  wp_customize_support_script(); ?>>
   <nav class="header">
     <div class="header__social-bar">
       <h5 class="header__social-bar--heading"> CALL OR TEXT NOW: <a class="number" href="tel:+16199001080">+1 619-900-1080</a></h5>
